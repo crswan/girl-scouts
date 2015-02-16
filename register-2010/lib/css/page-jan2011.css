@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html,body{
+
+	padding:0px;
+
+	margin:0px;
+
+}
+
+h1{
+
+	color:#5C743D;
+
+	font-family:Arial,Helvetica,sans-serif;
+
+	font-size:24px;
+
+	font-size-adjust:none;
+
+	font-stretch:normal;
+
+	font-style:normal;
+
+	font-variant:normal;
+
+	font-weight:normal;
+
+	letter-spacing:0.2em;
+
+	line-height:30px;
+
+	text-align:center;
+
+}
+
+h2{
+
+	color:#000000;
+
+	font-family:Arial,Helvetica,sans-serif;
+
+	font-size:14px;
+
+	font-size-adjust:none;
+
+	font-stretch:normal;
+
+	font-style:normal;
+
+	font-variant:normal;
+
+	font-weight:normal;
+
+	letter-spacing:0.4em;
+
+	line-height:18px;
+
+	text-align:center;
+
+}
+
+h3{
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:14px;
+
+	font-weight:bold;
+
+	margin-top:10px;
+
+	margin-bottom:10px;
+
+	padding-bottom:5px;
+
+	border-bottom:1px solid #CCC;
+
+}
+
+p{
+
+	font-size:13px;
+
+	padding:5px 0;
+
+}	
+
+
+
+div.template{
+
+	display:none;
+
+}
+
+div#tag div{
+
+	padding:10px;
+
+	font-size:12px;
+
+}
+
+a.removeTag{
+
+	float:right;
+
+	font-size:12px;
+
+	color:#900;
+
+	clear:both;
+
+}
+
+div.instructions{
+
+	padding:10px;
+
+	background-color:#E2E2E2;
+
+	border:1px solid #666;
+
+	margin-bottom:10px;
+
+	margin-left: 10px;
+
+}
+
+div.instructions ul {
+
+	list-style-type:disc:
+
+	font-size:12px;
+
+}
+
+div.instructions li  {
+
+	list-style-type:disc;
+
+	font-size:12px;
+
+	margin-left:20px;
+
+	margin-top:5px;
+
+}
+
+table.form input.submit{
+
+	width:auto;
+
+}	
+
+table.form{
+
+	width:70%;
+
+	margin:0px auto;
+
+}
+
+table.form th,table.form td{
+
+	padding:5px;
+
+}
+
+table.form th{
+
+	width:285px;
+
+	font-weight:bold;
+
+	text-align:left;
+
+	font-size:13px;
+
+	vertical-align:top;
+
+}
+
+table.form tr.alt th,table.form tr.alt td{
+
+	background-color:#EFEFEF;
+
+}
+
+table.form input,table.form select{
+
+	width:250px;
+
+	font-size:13px;
+
+}
+
+
+
+div#wrapper{
+
+	width:900px;
+
+	margin:0px auto;
+
+	border:1px solid #060;
+
+}
+
+div#header{
+
+	background-color:#D5EDB3;
+
+	padding:20px;
+
+	margin:0px;
+
+}
+
+div#body{
+
+	padding:20px;
+
+	display:none;
+
+}
+
+div#javascript{
+
+	padding:20px;
+
+}
+
+a{
+
+	color:#06C;
+
+}
+
+
+
+div.error{
+
+	margin-bottom:10px;
+
+	border:1px solid #900;
+
+	color:#900;
+
+	background-color:#FDD;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	padding:10px;
+
+}
+

@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	/*
+	padding:0px;
+	margin:0px;
+*/
+}
+h1{
+	color:#5C743D;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:24px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	letter-spacing:0.2em;
+	line-height:30px;
+	text-align:center;
+}
+h2{
+	color:#000000;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	letter-spacing:0.4em;
+	line-height:18px;
+	text-align:center;
+}
+h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	border-bottom:1px solid #CCC;
+}
+p,
+li{
+	font-size:13px;
+	/* padding:5px 0; */
+}	
+
+div.template{
+	display:none;
+}
+div#tag div{
+	padding:10px;
+	font-size:12px;
+}
+a.removeTag{
+	float:right;
+	font-size:12px;
+	color:#900;
+	clear:both;
+}
+div.instructions{
+	padding:10px;
+	background-color:#E2E2E2;
+	border:1px solid #666;
+	margin-bottom:10px;
+	margin-left: 10px;
+}
+
+div.instructions ul {
+	list-style-type:disc:
+	font-size:12px;
+}
+div.instructions li  {
+	list-style-type:disc;
+	font-size:12px;
+	margin-left:20px;
+	margin-top:5px;
+}
+
+table.form input.submit{
+	width:auto;
+}	
+
+table.form,
+table.registrationForm{
+	width:70%;
+	margin:0px auto;
+}
+
+table.priceSummary th,
+table.priceSummary td,
+table.form th,
+table.form td,
+table.registrationForm th,
+table.registrationForm td
+{
+	padding:5px;
+}
+
+table.form{
+  font-size:12px;
+}
+
+table.form th,
+table.registrationForm th
+{
+	width:225px;
+	/*font-weight:bold;*/
+	text-align:left;
+	vertical-align:top;
+	background: #F8F8F8;
+}
+
+.requiredField,
+th.requiredField,
+td.requiredField 
+{
+/*	color: red; */
+	font-weight:bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+// on the main registration form, do not alternate color
+table.form tr.alt th,
+table.form tr.alt td{
+	background-color:#EFEFEF;
+}
+
+table.form input,
+table.form select,
+table.registrationForm input,
+table.registrationForm select{
+	width:250px;
+	font-size:13px;
+}
+
+table.form input.long{
+	width:500px;
+}
+
+div#wrapper{
+	width:900px;
+	margin:0px auto;
+	border:1px solid #060;
+}
+div#header{
+	background-color:#D5EDB3;
+	padding:20px;
+	margin:0px;
+}
+div#body{
+	padding:20px;
+	display:none;
+}
+div#javascript{
+	padding:20px;
+}
+a{
+	color:#06C;
+}
+
+div.error{
+	margin-bottom:10px;
+	border:1px solid #900;
+	color:#900;
+	background-color:#FDD;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:10px;
+}
+
+ul {list-style-type:disc;}
+ul.b {list-style-type:square;}
+ol {list-style-type:decimal;}
+ol.d {list-style-type:lower-alpha;}
+
+div.priceSummary {
+	text-align:center;
+}
+table.priceSummary {
+	background-color:#E2E2E2;
+	margin-left:auto;
+	margin-right:auto;
+	border-width: 1px;
+	border-color: black;
+}
+table.priceSummary th {
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	border-width: 1px;
+	border-style: inset;
+	border-color: gray;
+}
+table.priceSummary td {
+	text-align:center;
+	font-size:12px;
+	border-width: 1px;
+	border-style: inset;
+	border-color: gray;
+}
+
+/*** Row Data Hanzel Morato 2012-01-28****/
+table.rowdata {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.rowdata th,
+.rowdata td {
+    text-align: left;
+    padding: 4px;
+    border-bottom: 1px solid #ccc;
+	background: #fff;
+	vertical-align: top;
+}
+.rowdata th {
+	/*background: #eeee88;*/
+	background: #E2E2E2;
+	font-weight: normal;
+	font-style: italic;
+}
+.rowdata td.primary {
+	border-bottom: 1px solid #fff;
+}
+.rowdata td.secondary {
+	font-style: italic;
+	color: #666;
+}

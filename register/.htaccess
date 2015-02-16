@@ -1,0 +1,2 @@
+AuthName "register"
+AuthUserFile "/home/peninsul/.htpasswds/public_html/register/passwd"

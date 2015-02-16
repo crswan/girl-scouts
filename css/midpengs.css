@@ -1,0 +1,744 @@
+/* Global Styles */
+
+
+
+body {
+
+	margin:0px;
+
+	bgcolor:red;
+
+	}
+
+	
+
+
+
+
+
+
+
+.dailyReminders table {
+
+	border:solid 1;
+
+
+
+}
+
+
+
+.dailyReminders td {
+
+	font:11px Arial, Helvetica, sans-serif;
+
+	font-style:normal;
+
+	font-weight:normal;
+
+	font-stretch:normal;
+
+	letter-spacing:normal;
+
+	text-align:left;
+
+	border:solid 1;
+
+	border-width:medium;
+
+	
+
+	}
+
+	
+
+td {
+
+	font:11px Arial, Helvetica, sans-serif;
+
+	color:#000;
+
+	}
+
+	
+
+a {
+
+	color: #993300;
+
+	}
+
+	
+
+ul, ol {
+
+	margin:0;
+
+	margin-left:10px;
+
+	padding:0;
+
+}
+
+	
+
+a:hover {
+
+	/* color: #5C743D;
+
+	*/
+
+	color: red;
+
+	
+
+	}
+
+
+
+/* ID Styles */
+
+
+
+#header {
+
+	background-color:#D5EDB3;
+
+	clear:both;
+
+	height:173px;
+
+	vertical-align:middle;
+
+}
+
+
+
+#header h1 {
+
+	font:24px Arial, Helvetica, sans-serif;
+
+	color: #5C743D;
+
+	letter-spacing:.2em;
+
+	line-height:30px;
+
+	text-align:center;
+
+	font-weight:normal;
+
+}
+
+
+
+
+
+#header h3 {
+
+	font:12px Arial, Helvetica, sans-serif;
+
+	color: black;
+
+	letter-spacing:.4em;
+
+	line-height:18px;
+
+	text-align:center;
+
+	font-weight:normal;
+
+}
+
+
+
+#header p {
+
+	font:14px Arial, Helvetica, sans-serif;
+
+	color:#000;
+
+	text-align:center;
+
+	/* color: #993300;
+
+	*/
+
+	letter-spacing:.4em;
+
+	line-height:18px;
+
+
+
+
+
+}
+
+
+
+#footer {
+
+	clear:left;
+
+}
+
+	
+
+#main {
+
+	margin: 10px;
+
+	margin-left:200px;
+
+	margin-top:0;
+
+}
+
+
+
+#topnav {
+
+	background-color:#99CC66;
+
+	color: #993300;
+
+	letter-spacing:.2em;
+
+	padding:20px;
+
+}
+
+
+
+#topnav li
+
+{
+
+	display: inline;
+
+	list-style-type: none;
+
+	padding-right: 20px;
+
+	line-height:22px;
+
+	letter-spacing:.2em;
+
+	font:16px Arial, Helvetica, sans-serif;
+
+}
+
+	
+
+	
+
+#topnav a {
+
+	color: #993300;
+
+	font-weight:bold;
+
+	letter-spacing:.1em;
+
+	text-decoration:none;
+
+	}
+
+	
+
+#topnav a:hover {
+
+	color: #F4FFE4;
+
+	letter-spacing:.1em;
+
+	}
+
+
+
+#right {
+
+	float:right;
+
+	background-color:pink;
+
+	width:200px;
+
+	padding:10px;
+
+}
+
+
+
+
+
+#leftnav {
+
+	width:200px;
+
+	float:left;
+
+	background-color:#5C743D;
+
+	color: blue;
+
+}
+
+
+
+#leftnav ul
+
+{
+
+	float:left;
+
+	width:100%;
+
+	padding:0;
+
+	margin:0;
+
+	list-style-type:none;
+
+}
+
+
+
+#leftnav li {
+
+border-style: dashed;
+
+        border-width: 1px;
+
+        border-color: #D5EDB3;
+
+		
+
+}
+
+
+
+
+
+#leftnav a {
+
+	font: bold 11px Arial, Helvetica, sans-serif;
+
+	color: #D5EDB3;
+
+	line-height:16px;
+
+	letter-spacing:.1em;
+
+	text-decoration: none;
+
+	display:block;
+
+	padding:8px 6px 10px 20px;
+
+	}
+
+
+
+#leftnav a:hover {
+
+	background: #99CC66;
+
+	color:#993300;
+
+}
+
+
+
+
+
+#rightbar {
+
+	float:right;
+
+}
+
+
+
+#navigation td {
+
+	border-bottom: 1px solid #F4FFE4;
+
+	bgcolor: #5C743D;
+
+	}
+
+	
+
+#navigation a {
+
+	font: bold 11px Arial, Helvetica, sans-serif;
+
+	color: #D5EDB3;
+
+	line-height:16px;
+
+	letter-spacing:.1em;
+
+	text-decoration: none;
+
+	display:block;
+
+	padding:8px 6px 10px 20px;
+
+	}
+
+	
+
+#navigation a:hover {
+
+	background: #99CC66;
+
+	color:#993300;
+
+	}
+
+	
+
+#logo {
+
+	font:24px Arial, Helvetica, sans-serif;
+
+	color: #5C743D;
+
+	letter-spacing:.2em;
+
+	line-height:30px;
+
+	}
+
+
+
+#tagline {	
+
+	font:11px Arial, Helvetica, sans-serif;
+
+	color: #993300;
+
+	letter-spacing:.4em;
+
+	line-height:18px;
+
+	}
+
+
+
+#monthformat {
+
+	border-bottom: 1px dashed #5C743D;
+
+	}
+
+		
+
+#dateformat {
+
+	font:11px Arial, Helvetica, sans-serif;
+
+	color: #993300;
+
+	letter-spacing:.2em;
+
+	}
+
+	
+
+#dateformat a {
+
+	font:11px Arial, Helvetica, sans-serif;
+
+	color: #993300;
+
+	font-weight:bold;
+
+	letter-spacing:.1em;
+
+	text-decoration:none;
+
+	}
+
+	
+
+#dateformat a:hover {
+
+	color: #F4FFE4;
+
+	letter-spacing:.1em;
+
+	}
+
+	
+
+/* Class Styles */
+
+	
+
+	
+
+.grey {
+
+	font:11px Arial, Helvetica, sans-serif;
+
+	color:#666666;
+
+	line-height:20px;
+
+	margin-top:0px;
+
+	font-style:italic;
+
+}
+
+
+
+.bodyText, p {
+
+	font:11px Arial, Helvetica, sans-serif;
+
+	color:#666666;
+
+	line-height:20px;
+
+	margin-top:0px;
+
+	}
+
+	
+
+p, li {
+
+	font:12px Arial, Helvetica, sans-serif;
+
+	color:#000;
+
+	line-height:20px;
+
+	margin-top:5px;
+
+}
+
+	
+
+.pageName {
+
+	font: 18px Arial, Helvetica, sans-serif;
+
+	color: #99CC66;
+
+	line-height:26px;
+
+	letter-spacing:.21em;
+
+	}
+
+
+
+h1 {
+
+	font: 16pt Arial, Helvetica, sans-serif;
+
+	color: #5C743D;
+
+	line-height:26px;
+
+	/* letter-spacing:.21em; */
+
+	letter-spacing:.1em;
+
+	}
+
+	
+
+.subHeader {
+
+	font:bold 11px Arial, Helvetica, sans-serif;
+
+	color: #993300;
+
+	line-height:22px;
+
+	letter-spacing:.2em;
+
+	}
+
+
+
+h2, th {
+
+	font:bold 12px Arial, Helvetica, sans-serif;
+
+	color: #993300;
+
+	line-height:22px;
+
+	letter-spacing:.2em;
+
+	}
+
+
+
+h3 {
+
+	font:bold 11px Arial, Helvetica, sans-serif;
+
+	color: #993300;
+
+	line-height:22px;
+
+	margin-bottom:0;
+
+	}
+
+		
+
+.quote {
+
+	font: 20px Arial, Helvetica, sans-serif;
+
+	color: #759DA1;
+
+	line-height:30px;
+
+	}
+
+	
+
+.smallText {
+
+	font: 10px Arial, Helvetica, sans-serif;
+
+	color: #666666;
+
+	line-height: 22px;
+
+	}
+
+	
+
+.navText {
+
+	font: 11px Arial, Helvetica, sans-serif;
+
+	/* color: #003366; */
+
+	color: pink;
+
+	bgcolor: #5C743D;
+
+	line-height:16px;
+
+	letter-spacing:.1em;
+
+	text-decoration: none;
+
+	}
+
+	
+
+.box {
+
+	border-collapse:collapse;
+
+	border:solid;
+
+	border-color:#5C743D; 
+
+	}
+
+	
+
+.dottedbox {
+
+	border-style: dashed;
+
+	border-width: 1px;
+
+	border-color:#999933;
+
+}
+
+
+
+.hovermenu ul{
+
+font: bold 13px arial;
+
+padding-left: 0;
+
+margin-left: 5px;
+
+height: 20px;
+
+}
+
+
+
+.hovermenu ul li{
+
+list-style: none;
+
+display: inline;
+
+}
+
+
+
+.hovermenu ul li a{
+
+padding: 2px 0.5em;
+
+text-decoration: none;
+
+float: left;
+
+color: black;
+
+background-color: #FFF2BF;
+
+border: 2px solid #FFF2BF;
+
+}
+
+
+
+.hovermenu ul li a:hover{
+
+background-color: #FFE271;
+
+border-style: outset;
+
+}
+
+
+
+body .hovermenu ul li a:active{ /* Apply mousedown effect only to NON IE browsers */
+
+border-style: inset;
+
+}
+
+
+
+li {
+
+	list-style:none inside;
+
+}
+
+
+
+.jobs ul {
+
+margin-left:20pt;
+
+
+
+}
+
+
+

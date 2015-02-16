@@ -1,0 +1,19 @@
+From: training@peninsuladaycamp.org
+To: training@peninsuladaycamp.org
+Subject: Volunteer Training Registration
+
+Volunteer Name:	[name]
+Email:	[email]
+# years previously at camp: [experience]
+Comments to training registrar: [commment]
+PDC-1 choice: [PDC-1]
+PDC-2 choice: [PDC-2]
+PDC-3 choice: [pdc3-1]
+PDC-4 choice: [PDC-4]
+PDC-5 choice: [pdc5-1]
+PDC-6 choice: [PDC-6]
+PDC-7 choice: [PDC-7]
+PDC-8 choice: [PDC-8]
+PDC-9 choice: [PDC-9]
+PDC-10 choice: [PDC-10]
+

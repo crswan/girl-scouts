@@ -1,0 +1,20 @@
+RewriteEngine On
+
+Options +FollowSymLinks
+Options +Indexes
+
+# define the base path for the rules
+RewriteBase /health_forms
+
+RewriteCond %{SERVER_PORT} 80 
+RewriteCond %{REQUEST_URI} health_forms 
+RewriteRule ^(.*)$ https://peninsuladaycamp.org/health_forms/$1 [R,L]
+
+# test
+
+# redirect root of health forms
+#RewriteRule ^$ index2.php [R,L]
+
+# redirect explicit call to index.php
+#RewriteRule index.php index2.php [R,L]
+# end test
